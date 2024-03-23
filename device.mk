@@ -253,6 +253,7 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service \
+    android.media.audio.common.types-V2-cpp \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libOmxAacEnc \
