@@ -5,7 +5,7 @@ rm -rf hardware/google/pixel/kernel_headers/Android.bp
 git clone https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
 
 # Clone kernel tree
-git clone --depth=1 https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase kernel/xiaomi/fog
+git clone --depth=1 -b reset https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase kernel/xiaomi/fog
 
 # Clone hardware/xiaomi from PixelOS-AOSP
 git clone https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
