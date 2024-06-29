@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Include signing keys, read more here: https://github.com/r0ddty/sign-script
+-include vendor/lineage-priv/keys/keys.mk
+
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
