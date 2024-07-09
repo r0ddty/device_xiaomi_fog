@@ -11,7 +11,7 @@ git clone -b main https://github.com/r0ddty/kernel_xiaomi_fog kernel/xiaomi/fog
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
 # MIUI Camera
-git clone https://github.com/r0ddty/android_device_xiaomi_sm6225-common-miuicamera device/xiaomi/sm6225-common-miuicamera
+git clone https://gitlab.com/ItzDFPlayer/vendor_davinci-miuicamera -b leica-5.0 vendor/xiaomi/miuicamera
 
 # Kernel fixups
 cd kernel/xiaomi/fog

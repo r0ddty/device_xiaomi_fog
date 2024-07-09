@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# MiuiCamera
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 # Include signing keys, read more here: https://github.com/r0ddty/sign-script
 -include vendor/lineage-priv/keys/keys.mk
 
@@ -100,7 +103,6 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
 # Camera
-$(call inherit-product-if-exists, device/xiaomi/sm6225-common-miuicamera/config.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
