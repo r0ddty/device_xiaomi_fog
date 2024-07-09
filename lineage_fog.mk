@@ -40,6 +40,9 @@ TARGET_DEFAULT_PIXEL_LAUNCHER := true
 # Blur
 TARGET_ENABLE_BLUR := true
 
+# Camera, set to false to build with aperture camera
+PRODUCT_NO_CAMERA := true 
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 BUILD_FINGERPRINT := Redmi/fog_global/fog:13/TKQ1.221114.001/V14.0.5.0.TGEMIXM:user/release-keys
