@@ -41,7 +41,7 @@ TARGET_DEFAULT_PIXEL_LAUNCHER := true
 TARGET_ENABLE_BLUR := true
 
 # Camera, set to false to build with aperture camera
-PRODUCT_NO_CAMERA := true 
+PRODUCT_NO_CAMERA := false 
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
