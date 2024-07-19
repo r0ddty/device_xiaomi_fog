@@ -24,8 +24,9 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi 10C
 
 # RisingOS stuff
-RISING_CHIPSET="Snapdragon 680"
-RISING_MAINTAINER="rootd"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 680" \
+    RISING_MAINTAINER="rootd"
 
 # GAPPS stuff
 WITH_GMS := true
