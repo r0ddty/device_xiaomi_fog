@@ -44,6 +44,9 @@ TARGET_ENABLE_BLUR := true
 # Camera, set to false to build with aperture camera
 PRODUCT_NO_CAMERA := false 
 
+# MiuiCamera
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 BUILD_FINGERPRINT := Redmi/fog_global/fog:13/TKQ1.221114.001/V14.0.5.0.TGEMIXM:user/release-keys

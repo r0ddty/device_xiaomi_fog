@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# MiuiCamera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
-
 # Include signing keys, read more here: https://github.com/r0ddty/sign-script
 -include vendor/lineage-priv/keys/keys.mk
 
