@@ -7,11 +7,11 @@ git clone https://github.com/r0ddty/vendor_xiaomi_fog vendor/xiaomi/fog
 # Clone kernel tree
 git clone -b main https://github.com/r0ddty/kernel_xiaomi_fog kernel/xiaomi/fog
 
-# Clone hardware/xiaomi from PixelOS-AOSP
-git clone https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
+# Clone BlissROM' hardware/xiaomi
+git clone https://github.com/BlissRoms-Devices/android_hardware_xiaomi hardware/xiaomi
 
 # MIUI Camera
-git clone -b leica-5.0 https://gitlab.com/r0ddty/vendor_xiaomi_miuicamera_fog vendor/xiaomi/miuicamera
+git clone https://gitlab.com/ItzDFPlayer/vendor_xiaomi_miuicamera -b leica-5.0 vendor/xiaomi/miuicamera
 
 # Kernel fixups
 cd kernel/xiaomi/fog

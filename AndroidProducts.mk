@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_fog.mk
+    $(LOCAL_DIR)/bliss_fog.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_fog-ap2a-user \
-    aosp_fog-ap2a-userdebug \
-    aosp_fog-ap2a-eng
+    bliss_fog-ap2a-user \
+    bliss_fog-ap2a-userdebug \
+    bliss_fog-ap2a-eng
