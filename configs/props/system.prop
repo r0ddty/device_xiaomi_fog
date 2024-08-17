@@ -5,7 +5,7 @@ persist.vendor.bt.a2dp.absvolfeature=false
 vendor.bluetooth.soc=cherokee
 
 # Blur
-ro.launcher.blur.appLaunch=0
+ro.launcher.blur.appLaunch=1
 
 # Camera
 camera.disable_zsl_mode=true
@@ -21,7 +21,7 @@ debug.hwui.skia_tracing_enabled=false
 debug.hwui.skia_use_perfetto_track_events=false
 debug.sf.enable_hwc_vds=0
 debug.sf.auto_latch_unsignaled=0
-ro.surface_flinger.supports_background_blur=0
+ro.surface_flinger.supports_background_blur=1
 
 # CNE
 persist.cne.feature=1
