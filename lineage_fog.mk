@@ -40,6 +40,8 @@ TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
 # Blur
 TARGET_ENABLE_BLUR := true
+PRODUCT_VENDOR_PROPERTIES += \
+       ro.surface_flinger.supports_background_blur=1
 
 # Camera, set to false to build with aperture camera
 PRODUCT_NO_CAMERA := false 
