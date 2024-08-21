@@ -5,8 +5,7 @@ rm -rf hardware/google/pixel/kernel_headers/Android.bp
 git clone https://github.com/r0ddty/vendor_xiaomi_fog vendor/xiaomi/fog
 
 # Clone kernel tree
-# git clone -b another-main https://github.com/r0ddty/kernel_xiaomi_fog kernel/xiaomi/fog
-git clone -b luna-staging https://github.com/Asyanx/sea_kernel_xiaomi_sm6225 kernel/xiaomi/fog
+git clone -b another-main https://github.com/r0ddty/kernel_xiaomi_fog kernel/xiaomi/fog
 
 # Clone LOS hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
