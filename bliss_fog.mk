@@ -23,6 +23,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 10C
 PRODUCT_NAME := bliss_fog
 
+# Build broken/missing modules
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
 # MiuiCamera
 $(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
