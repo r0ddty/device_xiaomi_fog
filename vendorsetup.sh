@@ -21,7 +21,5 @@ rm -rf vendor/RisingOTA
 git clone https://github.com/r0ddty/android_vendor_RisingOTA_fog_unoff vendor/RisingOTA
 
 # Kernel fixups
-cd kernel/xiaomi/fog
-rm -rf Android.bp
-rm -rf techpack/audio/Android.bp
-cd ../../..
+rm kernel/xiaomi/fog/Android.bp
+rm kernel/xiaomi/fog/techpack/audio/Android.bp
