@@ -13,6 +13,13 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 # MIUI Camera
 git clone -b leica-5.0 https://gitlab.com/r0ddty/vendor_xiaomi_miuicamera_fog vendor/xiaomi/miuicamera
 
+# OTA
+rm -rf packages/apps/Updater
+git clone https://github.com/r0ddty/android_packages_apps_Updater_fog_unoff packages/apps/updater
+
+rm -rf vendor/RisingOTA
+git clone https://github.com/r0ddty/android_vendor_RisingOTA_fog_unoff vendor/RisingOTA
+
 # Kernel fixups
 cd kernel/xiaomi/fog
 rm -rf Android.bp
