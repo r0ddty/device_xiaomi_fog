@@ -17,7 +17,7 @@ git clone -b leica-5.0 https://gitlab.com/r0ddty/vendor_xiaomi_miuicamera_fog ve
 rm -rf packages/apps/Updater
 git clone https://github.com/r0ddty/android_packages_apps_Updater_fog_unoff packages/apps/Updater
 
-rm -rf vendor/RisingOTA
+rm -rf vendor/risingOTA
 git clone https://github.com/r0ddty/android_vendor_RisingOTA_fog_unoff vendor/risingOTA
 
 # Kernel fixups
