@@ -2,16 +2,24 @@
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
 
 # Clone vendor tree
-git clone https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
+git clone https://github.com/r0ddty/vendor_xiaomi_fog vendor/xiaomi/fog
 
 # Clone kernel tree
-git clone --depth=1 -b another-reset https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase kernel/xiaomi/fog
+git clone -b another-main https://github.com/r0ddty/kernel_xiaomi_fog kernel/xiaomi/fog
 
-# Clone LineageOS' hardware/xiaomi
+# Clone LOS hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
+# MIUI Camera
+git clone -b leica-5.0 https://gitlab.com/r0ddty/vendor_xiaomi_miuicamera_fog vendor/xiaomi/miuicamera
+
+# OTA
+rm -rf packages/apps/Updater
+git clone https://github.com/r0ddty/android_packages_apps_Updater_fog_unoff packages/apps/Updater
+
+rm -rf vendor/risingOTA
+git clone https://github.com/r0ddty/android_vendor_RisingOTA_fog_unoff vendor/risingOTA
+
 # Kernel fixups
-cd kernel/xiaomi/fog
-rm -rf Android.bp
-rm -rf techpack/audio/Android.bp
-cd ../../..
+rm kernel/xiaomi/fog/Android.bp
+rm kernel/xiaomi/fog/techpack/audio/Android.bp
