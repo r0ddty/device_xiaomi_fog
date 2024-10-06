@@ -20,6 +20,11 @@ git clone https://github.com/r0ddty/android_packages_apps_Updater_fog_unoff pack
 rm -rf vendor/risingOTA
 git clone https://github.com/r0ddty/android_vendor_RisingOTA_fog_unoff vendor/risingOTA
 
+# Lindroid
+git clone https://github.com/Linux-on-droid/vendor_lindroid vendor/lindroid
+git clone https://github.com/Linux-on-droid/libhybris external/libhybris
+git clone https://github.com/Linux-on-droid/external_lxc external/lxc
+
 # Kernel fixups
 rm kernel/xiaomi/fog/Android.bp
 rm kernel/xiaomi/fog/techpack/audio/Android.bp
