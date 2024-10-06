@@ -25,6 +25,11 @@ git clone https://github.com/Linux-on-droid/vendor_lindroid vendor/lindroid
 git clone https://github.com/Linux-on-droid/libhybris external/libhybris
 git clone https://github.com/Linux-on-droid/external_lxc external/lxc
 
+# Lindroid patch
+cd frameworks/native
+git fetch https://gerrit.libremobileos.com/LMODroid/platform_frameworks_native refs/changes/36/12936/1 && git cherry-pick FETCH_HEAD
+cd ../..
+
 # Kernel fixups
 rm kernel/xiaomi/fog/Android.bp
 rm kernel/xiaomi/fog/techpack/audio/Android.bp
