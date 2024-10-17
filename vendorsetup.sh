@@ -13,6 +13,9 @@ git clone https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
 # Clone CertifiedPropsOverlay
 git clone https://github.com/pure-soul-kk/vendor_extra vendor/extra
 
+# MiuiCamera
+git clone https://gitlab.com/r0ddty/vendor_xiaomi_miuicamera_fog --depth 1 -b leica-5.0 vendor/xiaomi/miuicamera
+
 # Kernel fixups
 rm kernel/xiaomi/fog/Android.bp
 rm kernel/xiaomi/fog/techpack/audio/Android.bp
