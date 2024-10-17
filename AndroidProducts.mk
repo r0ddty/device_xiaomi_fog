@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/styx_fog.mk
+    $(LOCAL_DIR)/miku_fog.mk
 
 COMMON_LUNCH_CHOICES := \
-    styx_fog-ap3a-user \
-    styx_fog-ap3a-userdebug \
-    styx_fog-ap3a-eng
+    miku_fog-ap3a-user \
+    miku_fog-ap3a-userdebug \
+    miku_fog-ap3a-eng
