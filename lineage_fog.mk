@@ -21,6 +21,12 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi 10C
 
+DERPFEST_BUILD_TYPE := Community
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Private keys
+-include vendor/lineage-priv/keys/keys.mk
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
