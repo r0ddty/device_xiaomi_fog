@@ -1,7 +1,7 @@
 # Remove Pixel kernel header
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
 
-git clone -b fifteen-qpr2 https://github.com/r0ddty/vendor_xiaomi_fog vendor/xiaomi/fog --depth 1
+git clone -b awewa https://github.com/r0ddty/vendor_xiaomi_fog vendor/xiaomi/fog --depth 1
 
 git clone -b andromeda https://github.com/r0ddty/device_xiaomi_fog-kernel device/xiaomi/fog-kernel --depth 1
 
