@@ -24,9 +24,6 @@ PRODUCT_MODEL := Redmi 10C
 DERPFEST_BUILD_TYPE := Community
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# MIUI Camera
-$(call inherit-product, vendor/xiaomi/miuicamera/MiuiCamera.mk)
-
 # Private keys
 -include vendor/lineage-priv/keys/keys.mk
 
