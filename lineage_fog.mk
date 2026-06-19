@@ -21,6 +21,23 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi 10C
 
+DERPFEST_BUILD_TYPE := Community
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Private keys
+-include vendor/lineage-priv/keys/keys.mk
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.clientidbase=android-google \
+    ro.com.google.clientidbase.ms=android-google \
+    ro.com.google.clientidbase.am=android-google \
+    ro.com.google.clientidbase.gmm=android-google \
+    ro.com.google.clientidbase.yt=android-google \
+    ro.com.google.clientidbase.vs=android-google
+
+PRODUCT_PACKAGES_DEL += \
+    PlayAutoInstallConfig
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
